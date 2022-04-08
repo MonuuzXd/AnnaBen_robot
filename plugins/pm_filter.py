@@ -400,7 +400,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/monuuzchanel_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat='-1001166447127'),
             InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/musicstreetgroup')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
